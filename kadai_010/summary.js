@@ -11,7 +11,7 @@ $(function(){
         $('#target').text('Hello!');
     });
 });
-// ボタンを押すとフェード員
+// ボタンを押すとフェードアウト
 $(function(){
     $('#fade-out').on('click' , function(){
         $('#target').fadeOut(3000 , function(){
